@@ -1,0 +1,64 @@
+Status de Pagamento,Dia,Mês,Meio de Propaganda,atendimento,Chamadas Realizadas,Duração da chamada,Modelo de Treinamento,Nivel de Treinamento,Código de Área,Equipe,Consultor
+Pago,1,Abr,Furto,R$ 7 ,3,02:00,GK,KJI. L4,A7,Equipe 1,Arthur
+Pago,10,Ago,Furto,R$ 11 ,1,02:00,GK,Pre. L8,B13,Equipe 2,Heitor
+Pago,20,Set,Drogas,R$ 12 ,3,02:00,GK,Fndn. L5,A1,Equipe 2,Helena
+Pago,23,Set,Outros,R$ 15 ,1,02:00,GK,Fndn. L5,A2,Equipe 3,Alice
+Pago,11,Set,Furto,R$ 25 ,2,02:00,GK,Fndn. L3,B13,Equipe 4,Theo
+Pago,2,Out,Homicido,R$ 12 ,1,02:00,GK,Fndn. L1,A4,Equipe 1,Davi
+Pago,6,Out,Homicido,R$ 20 ,2,02:00,GK,KJI. L4,B12,Equipe 4,Theo
+Pago,26,Nov,Outros,R$ 19 ,2,02:00,BE,Pre. L2,A2,Equipe 1,Davi
+Pago,15,Nov,Homicido,R$ 38 ,2,02:00,BE,Fndn. L1,B18,Equipe 2,Heitor
+Pago,17,Nov,Maria da penha Ad,R$ 12 ,2,02:00,GK,Fndn. L6,C8,Equipe 2,Aguia
+Pago,1,Abr,Furto,R$ 7 ,3,02:00,GK,KJI. L4,A7,Equipe 1,Arthur
+Pago,2,Out,Homicido,R$ 12 ,1,02:00,GK,Fndn. L1,A4,Equipe 1,Heitor
+Pago,6,Out,Homicido,R$ 20 ,2,02:00,GK,KJI. L4,B12,Equipe 4,Aguia
+Pago,26,Nov,Outros,R$ 19 ,2,02:00,BE,Pre. L2,A2,Equipe 1,Sophia
+Pago,2,Out,Homicido,R$ 12 ,1,02:00,GK,Fndn. L1,A4,Equipe 1,Helena
+Pago,6,Out,Homicido,R$ 20 ,2,02:00,GK,KJI. L4,B12,Equipe 4,Aguia
+Pago,26,Nov,Outros,R$ 19 ,2,02:00,BE,Pre. L2,A2,Equipe 1,Sophia
+Pago,12,Jan,Furto,R$ 11 ,1,02:00,GK,Pre. L3,C8,Equipe 2,Aguia
+Pago,11,Fev,Drogas,R$ 25 ,1,02:00,GK,Fndn. L5,B12,Equipe 2,Helena
+Pago,11,Mar,Outros,R$ 38 ,2,02:00,BE,Pre. L3,B12,Equipe 1,Aguia
+Pago,3,Abr,Homicido,R$ 15 ,1,02:00,GK,Pre. L3,A7,Equipe 1,Davi
+Pago,11,Mai,Furto,R$ 19 ,1,02:00,BE,KJI. L4,B13,Equipe 3,Sophia
+Pago,10,Mai,Homicido,R$ 20 ,3,02:00,GK,Pre. L2,A2,Equipe 3,Sophia
+Pago,5,Mai,Homicido,R$ 7 ,2,02:00,GK,Pre. L3,B18,Equipe 2,Aguia
+Pago,12,Jun,Drogas,R$ 38 ,3,02:00,BE,Fndn. L1,A4,Equipe 1,Aguia
+Pago,26,Ago,Furto,R$ 20 ,3,02:00,CNI,KJI. L4,A7,Equipe 4,Theo
+Pago,25,Set,Furto,R$ 15 ,3,02:00,GK,Pre. L3,A1,Equipe 2,Aguia
+Pago,11,Set,Furto,R$ 12 ,4,02:00,GK,Pre. L8,A7,Equipe 4,Theo
+Pago,18,Set,Furto,R$ 15 ,2,02:00,GK,Fndn. L1,B18,Equipe 1,Lorena
+Pago,1,Out,Outros,R$ 15 ,3,02:00,GK,Fndn. L1,A1,Equipe 2,Aguia
+Pago,1,Out,Furto,R$ 12 ,6,02:00,GK,Fndn. L1,A1,Equipe 1,Davi
+Pago,8,Out,Furto,R$ 15 ,3,02:00,GK,Fndn. L3,A7,Equipe 1,Lorena
+Pago,20,Out,Drogas,R$ 25 ,4,02:00,GK,Fndn. L3,A1,Equipe 1,Lucas
+Pago,20,Out,Maria da penha Ad,R$ 12 ,4,02:00,GK,Pre. L4,A2,Equipe 3,João
+Pago,1,Out,Drogas,R$ 15 ,5,02:00,GK,Fndn. L5,A4,Equipe 3,Sophia
+Pago,20,Out,Drogas,R$ 10 ,1,02:00,GK,Pre. L4,B12,Equipe 1,Samuel
+Pago,1,Out,Drogas,R$ 12 ,2,02:00,GK,Fndn. L3,B13,Equipe 1,Aguia
+Pago,4,Out,Furto,R$ 11 ,6,02:00,GK,Fndn. L1,B18,Equipe 2,Helena
+Pago,3,Nov,Outros,R$ 19 ,3,02:00,BE,Pre. L4,B18,Equipe 1,Aguia
+Pago,22,Nov,Outros,R$ 19 ,1,02:00,BE,Pre. L8,C8,Equipe 4,Bernardo
+Pago,13,Nov,Maria da penha Ad,R$ 20 ,3,02:00,CNI,KJI. L4,A1,Equipe 3,Sophia
+Pago,17,Nov,Maria da penha Ad,R$ 7 ,1,02:00,GK,KJI. L4,A2,Equipe 1,Aguia
+Pago,30,Nov,Maria da penha Ad,R$ 10 ,1,02:00,GK,Fndn. L5,A2,Equipe 3,João
+Pago,29,Nov,Outros,R$ 15 ,1,02:00,GK,KJI. L4,B13,Equipe 2,Heitor
+Pago,6,Nov,Maria da penha Ad,R$ 7 ,3,02:00,GK,Pre. L4,C8,Equipe 4,Bernardo
+Pago,22,Dez,Drogas,R$ 25 ,6,02:00,GK,Pre. L3,B12,Equipe 4,Theo
+Pago,3,Dez,Outros,R$ 20 ,4,02:00,GK,Fndn. L1,C8,Equipe 2,Aguia
+Pago,12,Jan,Furto,R$ 11 ,1,02:00,GK,Pre. L3,C8,Equipe 2,Aguia
+Pago,11,Fev,Drogas,R$ 25 ,1,02:00,GK,Fndn. L5,B12,Equipe 2,Helena
+Pago,11,Mar,Outros,R$ 38 ,2,02:00,BE,Pre. L3,B12,Equipe 1,Aguia
+Pago,3,Abr,Homicido,R$ 15 ,1,02:00,GK,Pre. L3,A7,Equipe 1,Davi
+Pago,11,Mai,Furto,R$ 19 ,1,02:00,BE,KJI. L4,B13,Equipe 3,Sophia
+Pago,10,Mai,Homicido,R$ 20 ,3,02:00,GK,Pre. L2,A2,Equipe 3,Sophia
+Pago,5,Mai,Homicido,R$ 7 ,2,02:00,GK,Pre. L3,B18,Equipe 2,Aguia
+Pago,12,Jun,Drogas,R$ 38 ,3,02:00,BE,Fndn. L1,A4,Equipe 1,Aguia
+Pago,26,Ago,Furto,R$ 20 ,3,02:00,CNI,KJI. L4,A7,Equipe 4,Theo
+Não pago,11,Mar,Outros,R$ 0 ,1,02:00,,,A1,Equipe 1,Lorena
+Não pago,14,Abr,Furto,R$ 0 ,5,02:00,,,A2,Equipe 2,Aguia
+Não pago,1,Mai,Furto,R$ 0 ,1,02:00,,,A7,Equipe 3,Sophia
+Não pago,12,Jun,Drogas,R$ 0 ,2,02:00,,,A2,Equipe 2,Heitor
+Não pago,7,Out,Maria da penha Ad,R$ 0 ,6,02:00,,,B12,Equipe 4,Bernardo
+Não pago,5,Out,Outros,R$ 0 ,4,02:00,,,C8,Equipe 2,Heitor 
+

@@ -1,0 +1,24 @@
+
+#Ativar ambiente 
+source  bin/activate
+
+#Desativar ambiente
+deactivate
+
+
+#Run server
+if __name__ == '__main__':
+    app.run_server(debug=False, port=8080, host='0.0.0.0')
+
+
+#GIT
+git remote -v
+export GPG_TTY=$(tty)
+
+git remote add origin https://github.com/speedsis/dashboard-yallo.git
+git branch -M main
+git add .
+git commit -m "first commit"
+git push -u origin main
+
+
