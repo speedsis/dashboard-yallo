@@ -5,6 +5,9 @@ source  bin/activate
 #Desativar ambiente
 deactivate
 
+#Congelar meus requirements
+pip freeze > requirements.txt
+
 
 #Run server
 if __name__ == '__main__':
