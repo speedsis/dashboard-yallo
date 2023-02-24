@@ -70,7 +70,7 @@ for i, j in zip(df_cru['Mês'].unique(), df['Mês'].unique()):
     options_month.append({'label': i, 'value': j})
 options_month = sorted(options_month, key=lambda x: x['value']) 
 
-options_team = [{'label': 'Todas Equipes', 'value': 0}]
+options_team = [{'label': 'Todos Serviços', 'value': 0}]
 for i in df['Equipe'].unique():
     options_team.append({'label': i, 'value': i})
 # ========= Função dos Filtros ========= #
@@ -132,7 +132,7 @@ app.layout = dbc.Container(children=[
                 dbc.CardBody([
                     dbc.Row([
                         dbc.Col([  
-                            html.Legend("Yallo Analytics")
+                            html.Legend("SIGFAS - Analytics")
                         ], sm=8),
                         # dbc.Col([        
                         #     html.I(className='fa fa-balance-scale', style={'font-size': '300%'})
@@ -141,11 +141,11 @@ app.layout = dbc.Container(children=[
                     dbc.Row([
                         dbc.Col([
                             ThemeSwitchAIO(aio_id="theme", themes=[url_theme1, url_theme2]),
-                            html.Legend("Yallo Security")
+                            html.Legend("SIGFAS DIGITAL")
                         ])
                     ], style={'margin-top': '10px'}),
                     dbc.Row([
-                        dbc.Button("Visite o Site", href="https://yallo.com.br/", target="_blank")
+                        dbc.Button("Visite o Site", href="https://sigfas.com.br/", target="_blank")
                     ], style={'margin-top': '10px'})
                 ])
             ], style=tab_card)
@@ -250,7 +250,7 @@ app.layout = dbc.Container(children=[
         dbc.Col([
             dbc.Card([
                 dbc.CardBody([
-                    html.H4('Distribuição por natureza criminal'),
+                    html.H4('Distribuição atendimento Social'),
                     dcc.Graph(id='graph9', className='dbc', config=config_graph)
                 ])
             ], style=tab_card)
@@ -258,7 +258,7 @@ app.layout = dbc.Container(children=[
         dbc.Col([
             dbc.Card([
                 dbc.CardBody([
-                    html.H4("Total de natureza criminal/mês"),
+                    html.H4("Total de atendimento/mês"),
                     dcc.Graph(id='graph10', className='dbc', config=config_graph)
                 ])
             ], style=tab_card)
@@ -273,7 +273,7 @@ app.layout = dbc.Container(children=[
         dbc.Col([
             dbc.Card([
                 dbc.CardBody([
-                    html.H5('Escolha a Equipe'),
+                    html.H5('Escolha o atendimento'),
                     dbc.RadioItems(
                         id="radio-team",
                         options=options_team,
@@ -426,7 +426,7 @@ def graph5(month, toggle):
     df_6 = df_6.reset_index()
     fig6 = go.Figure()
     fig6.add_trace(go.Indicator(mode='number',
-        title = {"text": f"<span>{df_6['Equipe'].iloc[0]} - Top Team</span><br><span style='font-size:70%'>Produtividade - em relação a média</span><br>"},
+        title = {"text": f"<span>{df_6['Equipe'].iloc[0]} - Top solicitações</span><br><span style='font-size:70%'>Atendimento - em relação a média</span><br>"},
         value = df_6['atendimento'].iloc[0],
   
         delta = {'relative': True, 'valueformat': '.1%', 'reference': df_6['atendimento'].mean()}
@@ -547,7 +547,7 @@ def graph11(month, team, toggle):
     ))
 
     fig11.update_layout(main_config, height=300, template=template)
-    select = html.H1("Todas Equipes") if team == 0 else html.H1(team)
+    select = html.H1("Todos Serviços") if team == 0 else html.H1(team)
 
     return fig11, select
 
